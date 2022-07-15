@@ -1,0 +1,32 @@
+.header{
+  padding-block: .75rem;
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-inline-end: 1rem;
+}
+
+.header-primary{
+  /* border: 1px solid red; */
+  /* inline-size: 444px; */
+}
+
+.header-primary img{
+  max-inline-size: 100%;
+  vertical-align: middle;
+}
+.header-right{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.header-top{
+  align-self: flex-end;
+}
+
+.header-bottom{
+}

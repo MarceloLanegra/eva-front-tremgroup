@@ -1,0 +1,16 @@
+.contact {
+  display: flex;
+  gap: 1rem;
+  inline-size: 43.4375rem;
+  font: var(--header2);
+  justify-content: space-between;
+}
+
+.contact a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.contact a:hover {
+  color: var(--gray);
+}

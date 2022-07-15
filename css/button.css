@@ -1,0 +1,67 @@
+button{
+  padding: unset;
+}
+
+.button {
+  border: 1px solid transparent;
+  padding-block: .625rem;
+  display: inline-block;
+  font: var(--button);
+  text-decoration: none;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+}
+
+.button:active {
+  transform: scale(.9);
+}
+
+.button.is-primary {
+  background: var(--black);
+  color: var(--white);
+  padding-inline: 38px;
+}
+
+.button.is-secondary {
+  border: 1px solid var(--black);
+  padding-inline: 15px;
+}
+
+.button.is-primary:hover,
+.button.is-primary:focus {
+  /* background: rgba(0, 0, 0, .9); */
+}
+
+.button:hover,
+.button:focus,
+.button.is-secondary:hover,
+.button.is-secondary:focus,
+.button.is-compact:hover,
+.button.is-compact:focus {
+  /* background-color: var(--gray10); */
+}
+
+.button.is-rounded:hover,
+.button.is-secondary:focus {
+  outline: none;
+  background-color: var(--gray10);
+}
+
+.button i {
+  font-size: 1.75rem;
+  color: var(--black);
+}
+
+.button i,
+.button span {
+  vertical-align: middle;
+}
+
+.button span {
+  margin-inline-start: .25rem;
+}
+
+.search i{
+  font-size: 1.5rem;
+}

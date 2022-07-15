@@ -1,0 +1,17 @@
+:root{
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #5A5A5A;
+  --header1: 500 .9375rem Poppins;
+  --header2: 500 .875rem Poppins;
+  --body1: 500 1.125rem Poppins;
+  --button : 500 1.0625rem Poppins;
+}
+
+body{
+  margin: 0;
+  color: var(--black);
+  background: var(--white);
+  font: body1;
+  min-block-size: 100vh;
+}
