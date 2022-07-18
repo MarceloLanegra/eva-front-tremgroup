@@ -1,0 +1,15 @@
+.exclusive{
+}
+
+.exclusive-content{
+    padding-block: 5.25rem;
+    text-align: center;
+}
+
+.exclusive-content .hero-title,.exclusive-content .hero-slogan{
+    margin: 0;
+}
+
+.exclusive-content .button{
+    margin-block-start: 2.125rem;
+}

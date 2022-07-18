@@ -1,0 +1,21 @@
+.hero-contentBottom {
+  /* margin-block-start: 5rem; */
+  /* align-self: center; */
+  display: flex;
+  /* flex-shrink: 0; */
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+}
+
+.more{
+  text-transform: none;
+  text-align: center;
+}
+
+.more span{
+  display: block;
+  margin-block-end: 1.5rem;
+  font: var(--headline2);
+  color: var(--white);
+}

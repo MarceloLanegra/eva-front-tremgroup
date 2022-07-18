@@ -1,3 +1,10 @@
+@import 'hero-content-info.css';
+@import 'hero-content-links.css';
+
 .hero-content{
-  border: 1px solid red;
+  margin-block-start: 13rem;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
 }

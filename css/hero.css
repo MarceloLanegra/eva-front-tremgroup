@@ -1,4 +1,5 @@
 @import 'hero-content.css';
+@import 'hero-bottom.css';
 
 .hero{
   background-color: #00000080;
@@ -8,6 +9,8 @@
   block-size: 54.125rem;
   background-size: cover;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  flex-direction: column;
   justify-content: center;
+  gap: 7rem;
 }

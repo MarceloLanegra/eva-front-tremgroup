@@ -6,6 +6,10 @@
   --header2: 500 .875rem Poppins;
   --body1: 500 1.125rem Poppins;
   --button : 500 1.0625rem Poppins;
+  --headline1: 400 4rem 'Marcellus';
+  --headline2: italic 1.25rem 'Ibarra Real Nova';
+  --headline3: 400 1.25rem 'Ibarra Real Nova';
+  --span: 500 1rem Poppins;
 }
 
 body{
