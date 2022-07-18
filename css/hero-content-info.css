@@ -13,16 +13,16 @@
 .hero-welcome,.hero-slogan{
     text-transform: capitalize;
   }
-  
+
   .hero-welcome{
     font: var(--headline3);
   }
-  
+
   .hero-title{
     font: var(--headline1);
     text-transform: uppercase;
   }
-  
+
   .hero-slogan{
     font: var(--headline2);
     /* color: var(--white); */

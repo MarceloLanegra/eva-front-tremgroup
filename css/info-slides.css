@@ -1,0 +1,33 @@
+.info-slides{
+  /* border: 1px solid red; */
+}
+
+.info-slides-content{
+  display: flex;
+  gap: 4rem;
+}
+
+.content-info{
+  flex-shrink: 0;
+  max-inline-size: 32.5rem;
+  inline-size: 100%;
+}
+
+.content-info span{
+  display: inline-block;
+  font: var(--body1);
+  margin-block-end: 2.625rem;
+}
+
+.content-info p:nth-of-type(2){
+  margin-block-start: 2.5rem;
+  margin-block-end: 5rem;
+}
+
+.content-info .button.is-primary{
+  padding-block: 1.625rem;
+}
+
+.content-slides{
+
+}

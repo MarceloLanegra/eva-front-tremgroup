@@ -1,426 +1,472 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@0;1&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/index.css" />
-    <title>Barkin-Gilman Group</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="wrapper">
-        <div class="header-content">
-          <div class="header-primary">
-            <img src="./images/logo-bg.png" alt="Logo Barkin-Gilman Group" />
-          </div>
-          <div class="header-right">
-            <div class="header-top">
-              <div class="contact">
-                <span
-                  >Peter
-                  <a class="button-icon" href="tel:+9546756656"
-                    >(954) 675-6656</a
-                  ></span
-                >
-                <span
-                  >Mark
-                  <a class="button-icon" href="tel:+9545578777"
-                    >(954) 557-8777</a
-                  ></span
-                >
-                <a class="button-icon" href="mailto:info@barkinggilman.com"
-                  >Info@BarkingGilman.com</a
-                >
-                <span
-                  ><a class="button-icon" href="tel:+51987528665">Login</a> /
-                  <a class="button-icon" href="tel:+51987528665"
-                    >Register</a
-                  ></span
-                >
-              </div>
-            </div>
-            <div class="header-bottom">
-              <nav class="menu" aria-label="main-navigation">
-                <ul>
-                  <li><a href="#main">Exclusive Listings</a></li>
-                  <li><a href="#projects">Homes For Sale</a></li>
-                  <li><a href="#contact">Luxury Condos</a></li>
-                  <li><a href="#contact">Lifestyle</a></li>
-                  <li><a href="#contact">Communites</a></li>
-                  <li><a href="#contact">Sellers</a></li>
-                  <li><a href="#contact">About Us</a></li>
-                </ul>
-                <form
-                  class="button is-secondary"
-                  role="search"
-                  aria-label="Buscar"
-                >
-                  <i class="icon-search" aria-hidden="true"></i>
-                </form>
-                <a href="#" target="_blank" class="button is-primary"
-                  >Contact us</a
-                >
-                <button class="button">
-                  <i class="icon-hamburguerButton" aria-hidden="true"></i>
-                </button>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <section class="hero">
-      <div class="hero-content">
-        <div class="hero-contentInfo">
-          <h4 class="hero-welcome">Welcome to fort lauderdale florida</h4>
-          <h1 class="hero-title">Barkin-Gilman Group</h1>
-          <h3 class="hero-slogan">
-            Your experts in navigating the south florida real state market
-          </h3>
-        </div>
-        <div class="hero-contentLinks">
-          <a href="#" class="button is-hero">Buyers</a>
-          <a href="#" class="button is-hero">Sellers</a>
-        </div>
-      </div>
-      <div class="hero-contentBottom">
-        <form class="search" role="search" aria-label="Search for properties">
-          <i class="icon-search" aria-hidden="true"></i>
-          <input type="search" placeholder="Search for properties" />
-        </form>
-        <div class="more">
-          <span>Scroll for more</span>
-          <img src="./images/Vector-Smart-Object.png" alt="" />
-        </div>
-      </div>
-    </section>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <title>Barkin-Gilman Group</title>
+</head>
+
+<body>
+  <header class="header">
     <div class="wrapper">
-      <section class="exclusive">
-        <!-- <div class="wrapper"> -->
-          <div class="exclusive-content">
-            <h1 class="hero-slogan">Fort lauderdale luxury & waterfront homes</h1>
-            <h1 class="hero-title">Exclusive listings</h1>
-            <div class="slideshow">
-              <div class="slideshow-container">
-                <div class="slides fade">
-                  <div class="slides-content">
-                    <img src="./images/ocean_flat.jpeg" style="width: 100%" />
-                    <div class="slides-info">
-                      <span>$21,850,000</span>
-                      <span>
-                        <ul>
-                          <li>8 Bed(s)</li>
-                          <li>9 Bath(s)</li>
-                          <li>8949 Sq.Ft.</li>
-                        </ul>
-                      </span>
-                      <span>94100 Overseas Hwy</span>
-                    </div>
-                    <div class="text">Caption Text</div>
-                  </div>
-                  <div class="slides-content">
-                    <img src="./images/front-house.jpeg" style="width: 100%" />
-                    <div class="slides-info">
-                      <span>$21,850,000</span>
-                      <span>
-                        <ul>
-                          <li>8 Bed(s)</li>
-                          <li>9 Bath(s)</li>
-                          <li>8949 Sq.Ft.</li>
-                        </ul>
-                      </span>
-                      <span>94100 Overseas Hwy</span>
-                    </div>
-                    <div class="text">Caption Text</div>
-                  </div>
+      <div class="header-content">
+        <div class="header-primary">
+          <img src="./images/logo-bg.png" alt="Logo Barkin-Gilman Group" />
+        </div>
+        <div class="header-right">
+          <div class="header-top">
+            <div class="contact">
+              <span>Peter
+                <a class="button-icon" href="tel:+9546756656">(954) 675-6656</a></span>
+              <span>Mark
+                <a class="button-icon" href="tel:+9545578777">(954) 557-8777</a></span>
+              <a class="button-icon" href="mailto:info@barkinggilman.com">Info@BarkingGilman.com</a>
+              <span><a class="button-icon" href="tel:+51987528665">Login</a> /
+                <a class="button-icon" href="tel:+51987528665">Register</a></span>
+            </div>
+          </div>
+          <div class="header-bottom">
+            <nav class="menu" aria-label="main-navigation">
+              <ul>
+                <li><a href="#main">Exclusive Listings</a></li>
+                <li><a href="#projects">Homes For Sale</a></li>
+                <li><a href="#contact">Luxury Condos</a></li>
+                <li><a href="#contact">Lifestyle</a></li>
+                <li><a href="#contact">Communites</a></li>
+                <li><a href="#contact">Sellers</a></li>
+                <li><a href="#contact">About Us</a></li>
+              </ul>
+              <form class="button is-secondary" role="search" aria-label="Buscar">
+                <i class="icon-search" aria-hidden="true"></i>
+              </form>
+              <a href="#" target="_blank" class="button is-primary">Contact us</a>
+              <button class="button">
+                <i class="icon-hamburguerButton" aria-hidden="true"></i>
+              </button>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-contentInfo">
+        <h4 class="hero-welcome">Welcome to fort lauderdale florida</h4>
+        <h1 class="hero-title">Barkin-Gilman Group</h1>
+        <h3 class="hero-slogan">
+          Your experts in navigating the south florida real state market
+        </h3>
+      </div>
+      <div class="hero-contentLinks">
+        <a href="#" class="button is-hero">Buyers</a>
+        <a href="#" class="button is-hero">Sellers</a>
+      </div>
+    </div>
+    <div class="hero-contentBottom">
+      <form class="search" role="search" aria-label="Search for properties">
+        <i class="icon-search" aria-hidden="true"></i>
+        <input type="search" placeholder="Search for properties" />
+      </form>
+      <div class="more">
+        <span>Scroll for more</span>
+        <img src="./images/Vector-Smart-Object.png" alt="" />
+      </div>
+    </div>
+  </section>
+  <div class="wrapper">
+    <div class="exclusive">
+      <!-- <div class="wrapper"> -->
+      <div class="exclusive-content">
+        <h1 class="hero-slogan">Fort lauderdale luxury & waterfront homes</h1>
+        <h1 class="hero-title">Exclusive listings</h1>
+        <div class="slideshow">
+          <div class="slideshow-container">
+            <div class="slides fade">
+              <div class="slides-content">
+                <img src="./images/ocean_flat.jpeg" style="width: 100%" />
+                <div class="slides-info">
+                  <span>$21,850,000</span>
+                  <span>
+                    <ul>
+                      <li>8 Bed(s)</li>
+                      <li>9 Bath(s)</li>
+                      <li>8949 Sq.Ft.</li>
+                    </ul>
+                  </span>
+                  <span>94100 Overseas Hwy</span>
                 </div>
-                <div class="slides fade">
-                  <div class="slides-content">
-                    <img src="./images/front-house2.jpeg" style="width: 100%" />
-                    <div class="slides-info">
-                      <span>$21,850,000</span>
-                      <span>
-                        <ul>
-                          <li>8 Bed(s)</li>
-                          <li>9 Bath(s)</li>
-                          <li>8949 Sq.Ft.</li>
-                        </ul>
-                      </span>
-                      <span>94100 Overseas Hwy</span>
-                    </div>
-                    <div class="text">Caption Text</div>
-                  </div>
-                  <div class="slides-content">
-                    <img src="./images/front-house3.jpeg" style="width: 100%" />
-                    <div class="slides-info">
-                      <span>$21,850,000</span>
-                      <span>
-                        <ul>
-                          <li>8 Bed(s)</li>
-                          <li>9 Bath(s)</li>
-                          <li>8949 Sq.Ft.</li>
-                        </ul>
-                      </span>
-                      <span>94100 Overseas Hwy</span>
-                    </div>
-                    <div class="text">Caption Text</div>
-                  </div>
-                </div>
-                <div class="slides fade">
-                  <div class="slides-content">
-                    <img src="./images/front-house.jpeg" style="width: 100%" />
-                    <div class="slides-info">
-                      <span>$21,850,000</span>
-                      <span>
-                        <ul>
-                          <li>8 Bed(s)</li>
-                          <li>9 Bath(s)</li>
-                          <li>8949 Sq.Ft.</li>
-                        </ul>
-                      </span>
-                      <span>94100 Overseas Hwy</span>
-                    </div>
-                    <div class="text">Caption Text</div>
-                  </div>
-                  <div class="slides-content">
-                    <img src="./images/front-house2.jpeg" style="width: 100%" />
-                    <div class="slides-info">
-                      <span>$21,850,000</span>
-                      <span>
-                        <ul>
-                          <li>8 Bed(s)</li>
-                          <li>9 Bath(s)</li>
-                          <li>8949 Sq.Ft.</li>
-                        </ul>
-                      </span>
-                      <span>94100 Overseas Hwy</span>
-                    </div>
-                    <div class="text">Caption Text</div>
-                  </div>
-                </div>
-                <div class="slides fade">
-                  <div class="slides-content">
-                    <img src="./images/ocean_flat.jpeg" style="width: 100%" />
-                    <div class="slides-info">
-                      <span>$21,850,000</span>
-                      <span>
-                        <ul>
-                          <li>8 Bed(s)</li>
-                          <li>9 Bath(s)</li>
-                          <li>8949 Sq.Ft.</li>
-                        </ul>
-                      </span>
-                      <span>94100 Overseas Hwy</span>
-                    </div>
-                    <div class="text">Caption Text</div>
-                  </div>
-                  <div class="slides-content">
-                    <img src="./images/front-house.jpeg" style="width: 100%" />
-                    <div class="slides-info">
-                      <span>$21,850,000</span>
-                      <span>
-                        <ul>
-                          <li>8 Bed(s)</li>
-                          <li>9 Bath(s)</li>
-                          <li>8949 Sq.Ft.</li>
-                        </ul>
-                      </span>
-                      <span>94100 Overseas Hwy</span>
-                    </div>
-                    <div class="text">Caption Text</div>
-                  </div>
-                </div>
-                <div class="slides fade">
-                  <div class="slides-content">
-                    <img src="./images/front-house2.jpeg" style="width: 100%" />
-                    <div class="slides-info">
-                      <span>$21,850,000</span>
-                      <span>
-                        <ul>
-                          <li>8 Bed(s)</li>
-                          <li>9 Bath(s)</li>
-                          <li>8949 Sq.Ft.</li>
-                        </ul>
-                      </span>
-                      <span>94100 Overseas Hwy</span>
-                    </div>
-                    <div class="text">Caption Text</div>
-                  </div>
-                  <div class="slides-content">
-                    <img src="./images/front-house3.jpeg" style="width: 100%" />
-                    <div class="slides-info">
-                      <span>$21,850,000</span>
-                      <span>
-                        <ul>
-                          <li>8 Bed(s)</li>
-                          <li>9 Bath(s)</li>
-                          <li>8949 Sq.Ft.</li>
-                        </ul>
-                      </span>
-                      <span>94100 Overseas Hwy</span>
-                    </div>
-                    <div class="text">Caption Text</div>
-                  </div>
-                </div>
-                <div class="slides fade">
-                  <div class="slides-content">
-                    <img src="./images/front-house.jpeg" style="width: 100%" />
-                    <div class="slides-info">
-                      <span>$21,850,000</span>
-                      <span>
-                        <ul>
-                          <li>8 Bed(s)</li>
-                          <li>9 Bath(s)</li>
-                          <li>8949 Sq.Ft.</li>
-                        </ul>
-                      </span>
-                      <span>94100 Overseas Hwy</span>
-                    </div>
-                    <div class="text">Caption Text</div>
-                  </div>
-                  <div class="slides-content">
-                    <img src="./images/front-house2.jpeg" style="width: 100%" />
-                    <div class="slides-info">
-                      <span>$21,850,000</span>
-                      <span>
-                        <ul>
-                          <li>8 Bed(s)</li>
-                          <li>9 Bath(s)</li>
-                          <li>8949 Sq.Ft.</li>
-                        </ul>
-                      </span>
-                      <span>94100 Overseas Hwy</span>
-                    </div>
-                    <div class="text">Caption Text</div>
-                  </div>
-                </div>
-                <div class="slides fade">
-                  <div class="slides-content">
-                    <img src="./images/ocean_flat.jpeg" style="width: 100%" />
-                    <div class="slides-info">
-                      <span>$21,850,000</span>
-                      <span>
-                        <ul>
-                          <li>8 Bed(s)</li>
-                          <li>9 Bath(s)</li>
-                          <li>8949 Sq.Ft.</li>
-                        </ul>
-                      </span>
-                      <span>94100 Overseas Hwy</span>
-                    </div>
-                    <div class="text">Caption Text</div>
-                  </div>
-                  <div class="slides-content">
-                    <img src="./images/front-house.jpeg" style="width: 100%" />
-                    <div class="slides-info">
-                      <span>$21,850,000</span>
-                      <span>
-                        <ul>
-                          <li>8 Bed(s)</li>
-                          <li>9 Bath(s)</li>
-                          <li>8949 Sq.Ft.</li>
-                        </ul>
-                      </span>
-                      <span>94100 Overseas Hwy</span>
-                    </div>
-                    <div class="text">Caption Text</div>
-                  </div>
-                </div>
-                <div class="slides fade">
-                  <div class="slides-content">
-                    <img src="./images/front-house2.jpeg" style="width: 100%" />
-                    <div class="slides-info">
-                      <span>$21,850,000</span>
-                      <span>
-                        <ul>
-                          <li>8 Bed(s)</li>
-                          <li>9 Bath(s)</li>
-                          <li>8949 Sq.Ft.</li>
-                        </ul>
-                      </span>
-                      <span>94100 Overseas Hwy</span>
-                    </div>
-                    <div class="text">Caption Text</div>
-                  </div>
-                  <div class="slides-content">
-                    <img src="./images/front-house3.jpeg" style="width: 100%" />
-                    <div class="slides-info">
-                      <span>$21,850,000</span>
-                      <span>
-                        <ul>
-                          <li>8 Bed(s)</li>
-                          <li>9 Bath(s)</li>
-                          <li>8949 Sq.Ft.</li>
-                        </ul>
-                      </span>
-                      <span>94100 Overseas Hwy</span>
-                    </div>
-                    <div class="text">Caption Text</div>
-                  </div>
-                </div>
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
               </div>
-              <div class="dots">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-                <span class="dot" onclick="currentSlide(5)"></span>
-                <span class="dot" onclick="currentSlide(6)"></span>
-                <span class="dot" onclick="currentSlide(7)"></span>
-                <span class="dot" onclick="currentSlide(8)"></span>
+              <div class="slides-content">
+                <img src="./images/front-house.jpeg" style="width: 100%" />
+                <div class="slides-info">
+                  <span>$21,850,000</span>
+                  <span>
+                    <ul>
+                      <li>8 Bed(s)</li>
+                      <li>9 Bath(s)</li>
+                      <li>8949 Sq.Ft.</li>
+                    </ul>
+                  </span>
+                  <span>94100 Overseas Hwy</span>
+                </div>
               </div>
             </div>
-            <a href="#" class="button is-primary">View all properties</a>
+            <div class="slides fade">
+              <div class="slides-content">
+                <img src="./images/front-house2.jpeg" style="width: 100%" />
+                <div class="slides-info">
+                  <span>$21,850,000</span>
+                  <span>
+                    <ul>
+                      <li>8 Bed(s)</li>
+                      <li>9 Bath(s)</li>
+                      <li>8949 Sq.Ft.</li>
+                    </ul>
+                  </span>
+                  <span>94100 Overseas Hwy</span>
+                </div>
+              </div>
+              <div class="slides-content">
+                <img src="./images/front-house3.jpeg" style="width: 100%" />
+                <div class="slides-info">
+                  <span>$21,850,000</span>
+                  <span>
+                    <ul>
+                      <li>8 Bed(s)</li>
+                      <li>9 Bath(s)</li>
+                      <li>8949 Sq.Ft.</li>
+                    </ul>
+                  </span>
+                  <span>94100 Overseas Hwy</span>
+                </div>
+              </div>
+            </div>
+            <div class="slides fade">
+              <div class="slides-content">
+                <img src="./images/front-house.jpeg" style="width: 100%" />
+                <div class="slides-info">
+                  <span>$21,850,000</span>
+                  <span>
+                    <ul>
+                      <li>8 Bed(s)</li>
+                      <li>9 Bath(s)</li>
+                      <li>8949 Sq.Ft.</li>
+                    </ul>
+                  </span>
+                  <span>94100 Overseas Hwy</span>
+                </div>
+              </div>
+              <div class="slides-content">
+                <img src="./images/front-house2.jpeg" style="width: 100%" />
+                <div class="slides-info">
+                  <span>$21,850,000</span>
+                  <span>
+                    <ul>
+                      <li>8 Bed(s)</li>
+                      <li>9 Bath(s)</li>
+                      <li>8949 Sq.Ft.</li>
+                    </ul>
+                  </span>
+                  <span>94100 Overseas Hwy</span>
+                </div>
+              </div>
+            </div>
+            <div class="slides fade">
+              <div class="slides-content">
+                <img src="./images/ocean_flat.jpeg" style="width: 100%" />
+                <div class="slides-info">
+                  <span>$21,850,000</span>
+                  <span>
+                    <ul>
+                      <li>8 Bed(s)</li>
+                      <li>9 Bath(s)</li>
+                      <li>8949 Sq.Ft.</li>
+                    </ul>
+                  </span>
+                  <span>94100 Overseas Hwy</span>
+                </div>
+              </div>
+              <div class="slides-content">
+                <img src="./images/front-house.jpeg" style="width: 100%" />
+                <div class="slides-info">
+                  <span>$21,850,000</span>
+                  <span>
+                    <ul>
+                      <li>8 Bed(s)</li>
+                      <li>9 Bath(s)</li>
+                      <li>8949 Sq.Ft.</li>
+                    </ul>
+                  </span>
+                  <span>94100 Overseas Hwy</span>
+                </div>
+              </div>
+            </div>
+            <div class="slides fade">
+              <div class="slides-content">
+                <img src="./images/front-house2.jpeg" style="width: 100%" />
+                <div class="slides-info">
+                  <span>$21,850,000</span>
+                  <span>
+                    <ul>
+                      <li>8 Bed(s)</li>
+                      <li>9 Bath(s)</li>
+                      <li>8949 Sq.Ft.</li>
+                    </ul>
+                  </span>
+                  <span>94100 Overseas Hwy</span>
+                </div>
+              </div>
+              <div class="slides-content">
+                <img src="./images/front-house3.jpeg" style="width: 100%" />
+                <div class="slides-info">
+                  <span>$21,850,000</span>
+                  <span>
+                    <ul>
+                      <li>8 Bed(s)</li>
+                      <li>9 Bath(s)</li>
+                      <li>8949 Sq.Ft.</li>
+                    </ul>
+                  </span>
+                  <span>94100 Overseas Hwy</span>
+                </div>
+              </div>
+            </div>
+            <div class="slides fade">
+              <div class="slides-content">
+                <img src="./images/front-house.jpeg" style="width: 100%" />
+                <div class="slides-info">
+                  <span>$21,850,000</span>
+                  <span>
+                    <ul>
+                      <li>8 Bed(s)</li>
+                      <li>9 Bath(s)</li>
+                      <li>8949 Sq.Ft.</li>
+                    </ul>
+                  </span>
+                  <span>94100 Overseas Hwy</span>
+                </div>
+              </div>
+              <div class="slides-content">
+                <img src="./images/front-house2.jpeg" style="width: 100%" />
+                <div class="slides-info">
+                  <span>$21,850,000</span>
+                  <span>
+                    <ul>
+                      <li>8 Bed(s)</li>
+                      <li>9 Bath(s)</li>
+                      <li>8949 Sq.Ft.</li>
+                    </ul>
+                  </span>
+                  <span>94100 Overseas Hwy</span>
+                </div>
+              </div>
+            </div>
+            <div class="slides fade">
+              <div class="slides-content">
+                <img src="./images/ocean_flat.jpeg" style="width: 100%" />
+                <div class="slides-info">
+                  <span>$21,850,000</span>
+                  <span>
+                    <ul>
+                      <li>8 Bed(s)</li>
+                      <li>9 Bath(s)</li>
+                      <li>8949 Sq.Ft.</li>
+                    </ul>
+                  </span>
+                  <span>94100 Overseas Hwy</span>
+                </div>
+              </div>
+              <div class="slides-content">
+                <img src="./images/front-house.jpeg" style="width: 100%" />
+                <div class="slides-info">
+                  <span>$21,850,000</span>
+                  <span>
+                    <ul>
+                      <li>8 Bed(s)</li>
+                      <li>9 Bath(s)</li>
+                      <li>8949 Sq.Ft.</li>
+                    </ul>
+                  </span>
+                  <span>94100 Overseas Hwy</span>
+                </div>
+              </div>
+            </div>
+            <div class="slides fade">
+              <div class="slides-content">
+                <img src="./images/front-house2.jpeg" style="width: 100%" />
+                <div class="slides-info">
+                  <span>$21,850,000</span>
+                  <span>
+                    <ul>
+                      <li>8 Bed(s)</li>
+                      <li>9 Bath(s)</li>
+                      <li>8949 Sq.Ft.</li>
+                    </ul>
+                  </span>
+                  <span>94100 Overseas Hwy</span>
+                </div>
+              </div>
+              <div class="slides-content">
+                <img src="./images/front-house3.jpeg" style="width: 100%" />
+                <div class="slides-info">
+                  <span>$21,850,000</span>
+                  <span>
+                    <ul>
+                      <li>8 Bed(s)</li>
+                      <li>9 Bath(s)</li>
+                      <li>8949 Sq.Ft.</li>
+                    </ul>
+                  </span>
+                  <span>94100 Overseas Hwy</span>
+                </div>
+              </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
           </div>
-        <!-- </div> -->
-      </section>
-      <section class="difference">
-        <div class="difference-content">
+          <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+          </div>
+        </div>
+        <a href="#" class="button is-primary">View all properties</a>
+      </div>
+      <!-- </div> -->
+    </div>
+  </div>
+  <div class="difference">
+    <div class="wrapper">
+      <div class="difference-content">
+        <div class="difference-contentPlayer">
           <div class="player">
-            <video id="video" poster="./images/barkin-gilman.jpg" muted src="https://media.w3.org/2010/05/sintel/trailer.mp4" width="846" height="598"></video>
+            <video id="video" poster="./images/barkin-gilman.jpg" muted
+              src="https://media.w3.org/2010/05/sintel/trailer.mp4" width="846" height="598"></video>
             <div class="player-overlay">
               <div class="player-actions">
                 <button class="player-button" id="backward" aria-label="Retroceder 10 segundos"
                   title="Retroceder 10 segundos"></button>
                 <button class="player-button" id="play" ara-label="Reproducir" title="Reproducir"></button>
                 <button class="player-button" hidden id="pause" aria-label="Pausar" title="Pausar"></button>
-                <button class="player-button" id="forward" aria-label="Adelantar 10 segundos" title="Adelantar 10 segundos"></button>
+                <button class="player-button" id="forward" aria-label="Adelantar 10 segundos"
+                  title="Adelantar 10 segundos"></button>
               </div>
             </div>
             <div class="player-progress">
               <input id="progress" type="range" min="0" value="0" step="1">
             </div>
           </div>
-          <div class="diffrence-contentInfo">
-            <h1>What makes the Barkin - Gilman Group different?</h1>
-            <p>Proven track record, longevity in listing and selling luxury states.</p>
-            <p>Peter Barkin and Mark Gilman have been successfully supporting the real state dreams of buyers and sellers in South Florida for over 20 years. In 2002, Peter and Mark teamed to create the Barkin-Gilman Group, a highly respected and successful within the South Florida real state community.</p>
-            <a href="">Meet the Group</a>
+        </div>
+        <div class="difference-contentInfo">
+          <h1 class="section-title">What makes the Barkin - Gilman Group different?</h1>
+          <p>Proven track record, longevity in listing and selling luxury states.</p>
+          <p class="section-paragraph">Peter Barkin and Mark Gilman have been successfully supporting the real state
+            dreams of buyers and sellers in South Florida for over 20 years. In 2002, Peter and Mark teamed to create
+            the Barkin-Gilman Group, a highly respected and successful within the South Florida real state community.
+          </p>
+          <a href="" class="button is-white">Meet the Group</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="info-slides">
+    <div class="wrapper">
+      <div class="info-slides-content">
+        <div class="content-info">
+          <h1 class="section-title">Discover</h1>
+          <span>Fort Lauderdale's Neighborhoods</span>
+          <p class="section-paragraph">Known as “The Venice of America'' and with over 150 miles of waterfront canals.
+            Fort Lauderdale is also known for hosting some of the most prestigious properties in the world.</p>
+          <p class="section-paragraph">We invite you to discover our feature neighborhoods featuring some of the best
+            hotels and restaurants and overall waterfront lifestyle in all of Florida.</p>
+          <a href="" class="button is-primary">All Neighborhoods</a>
+        </div>
+        <div class="content-slides">
+          <div class="slideshow2">
+            <div class="slideshow2-container">
+              <div class="slides2 fade">
+                <div class="slides2-content">
+                  <img src="./images/neighborhood.png" alt="" width="478" height="498">
+                  <div class="slides2-info">
+                    <a href="#" class="centered">Las Olas Isles is made up of a series of narrow land masses just south of Las Olas Boulevard. You'll find a number of single family homes with boat docks as standar feature in most of the homes for sale.</a>
+                  </div>
+                </div>
+              </div>
+              <div class="slides2 fade">
+                <div class="slides2-content">
+                  <img src="./images/neighborhood.png" style="width: 100%" />
+                  <!-- <div class="slides2-info">
+                    <span>$21,850,000</span>
+                    <span>
+                      <ul>
+                        <li>8 Bed(s)</li>
+                        <li>9 Bath(s)</li>
+                        <li>8949 Sq.Ft.</li>
+                      </ul>
+                    </span>
+                    <span>94100 Overseas Hwy</span>
+                  </div> -->
+                </div>
+              </div>
+              <div class="slides2 fade">
+                <div class="slides2-content">
+                  <img src="./images/neighborhood.png" style="width: 100%" />
+                  <!-- <div class="slides2-info">
+                    <span>$21,850,000</span>
+                    <span>
+                      <ul>
+                        <li>8 Bed(s)</li>
+                        <li>9 Bath(s)</li>
+                        <li>8949 Sq.Ft.</li>
+                      </ul>
+                    </span>
+                    <span>94100 Overseas Hwy</span>
+                  </div> -->
+                </div>
+              </div>
+              <div class="slides2 fade">
+                <div class="slides2-content">
+                  <img src="./images/neighborhood.png" style="width: 100%" />
+                  <!-- <div class="slides2-info">
+                    <span>$21,850,000</span>
+                    <span>
+                      <ul>
+                        <li>8 Bed(s)</li>
+                        <li>9 Bath(s)</li>
+                        <li>8949 Sq.Ft.</li>
+                      </ul>
+                    </span>
+                    <span>94100 Overseas Hwy</span>
+                  </div> -->
+                </div>
+              </div>
+              <a class="prev2" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next2" onclick="plusSlides(1)">&#10095;</a>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
-    <script src="./js/index.js"></script>
-  </body>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+
 </html>

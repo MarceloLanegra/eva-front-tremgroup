@@ -3,11 +3,11 @@
 .player{
     max-inline-size: 846px;
     max-block-size: 598px;
+    inline-size: 100%;
     block-size: 100%;
-    /* margin-block-start: 100px; */
     position: relative;
   }
-  
+
   .player video{
     inline-size: 100%;
     aspect-ratio: 16/9;
@@ -31,18 +31,18 @@
     display:flex;
     padding: 10px;
   }
-  
+
   .player-progress input{
     flex: 1;
   }
-  
+
   .player-overlay{
     position: absolute;
     inset: 0;
     opacity: 0;
     transition: .3s opacity;
   }
-  
+
   .player:hover .player-overlay{
     opacity: 1;
   }

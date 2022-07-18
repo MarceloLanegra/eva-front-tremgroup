@@ -20,22 +20,29 @@ button{
 
 .button.is-primary {
   background: var(--black);
-  color: var(--white);
-  padding-inline: 38px;
+  color: var(--white2);
+  padding-inline: 2.375rem;
   text-transform: capitalize;
 }
 
 .button.is-secondary {
   border: 1px solid var(--black);
-  padding-inline: 15px;
+  padding-inline: 1rem;
 }
 
 .button.is-secondary i{
   font-size: 1.5rem;
 }
 
+.button.is-white{
+  background: var(--white2);
+  color: var(--black);
+  padding-inline: 3.375rem;
+  padding-block: 1.375rem;
+}
+
 .button.is-hero{
-  border: 1px solid var(--white);
+  border: 1px solid var(--white2);
   inline-size: 14.75rem;
   color: var(--white);
   padding-block: .875rem;

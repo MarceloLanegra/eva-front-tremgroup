@@ -1,0 +1,53 @@
+.difference{
+  background-color: #000000;
+  background-image: url('../images/ocean2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.difference-content{
+  display: flex;
+  gap: 4rem;
+  padding-block: 7.25rem;
+  padding-inline: 3.3125rem;
+}
+
+.difference-contentPlayer{
+  flex-shrink: 0;
+}
+
+.difference-contentInfo{
+  padding-inline-end: 5rem;
+  /* text-align: justify; */
+  align-self: center;
+  color: var(--white);
+}
+
+.difference-contentInfo > *{
+  margin: 0;
+}
+
+.section-title{
+  font: var(--sectionTitle);
+  text-align: left;
+  margin: 0;
+}
+
+.section-paragraph{
+  font: var(--body2);
+  margin: 0;
+  text-align: justify;
+}
+
+.difference-contentInfo h1{
+  margin-block-end: 3.625rem;
+}
+
+.difference p{
+  font: var(--body1);
+}
+
+.difference p:nth-of-type(2) {
+  margin-block-start: 3rem;
+  margin-block-end: 3.625rem;
+}

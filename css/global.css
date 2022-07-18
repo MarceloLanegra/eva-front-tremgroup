@@ -1,14 +1,17 @@
 :root{
   --black: #000000;
-  --white: #ffffff;
+  --white: #ffffffd9;
+  --white2: #ffffff;
   --gray: #5A5A5A;
   --header1: 500 .9375rem Poppins;
   --header2: 500 .875rem Poppins;
-  --body1: 500 1.125rem Poppins;
+  --body1: 500 1.25rem Poppins;
+  --body2: 400 1.125rem Poppins;
   --button : 500 1.0625rem Poppins;
   --headline1: 400 4rem 'Marcellus';
   --headline2: italic 1.25rem 'Ibarra Real Nova';
   --headline3: 400 1.25rem 'Ibarra Real Nova';
+  --sectionTitle: italic 2.5rem 'Marcellus';
   --span: 500 1rem Poppins;
 }
 
@@ -16,6 +19,6 @@ body{
   margin: 0;
   color: var(--black);
   background: var(--white);
-  font: body1;
+  font: body2;
   min-block-size: 100vh;
 }
