@@ -3,13 +3,17 @@
 }
 
 .info-slides-content{
+  /* border: 1px solid red; */
   display: flex;
-  gap: 4rem;
+  gap: 7rem;
+  padding-block: 7rem;
+  padding-inline: 3.75rem;
 }
 
 .content-info{
   flex-shrink: 0;
-  max-inline-size: 32.5rem;
+  /* max-inline-size: 32.5rem; */
+  max-inline-size: 560px;
   inline-size: 100%;
 }
 
