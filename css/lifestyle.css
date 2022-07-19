@@ -1,0 +1,19 @@
+.lifestyle{
+  /* background-color: #00000080; */
+  background-image: url('../images/ocean.png');
+  /* background-blend-mode: multiply; */
+  background-repeat: no-repeat;
+  block-size: 54.125rem;
+  width: auto;
+  background-size: cover;
+  display: flex;
+  /* align-items: center; */
+  /* flex-direction: column;
+  justify-content: center;
+  gap: 7rem; */
+}
+
+.lifestyle .info-slides{
+  margin-block: 3.75rem;
+  background: var(--white2);
+}
