@@ -1,21 +1,27 @@
 .info-slides{
   /* border: 1px solid red; */
+  /* padding-block: 7rem; */
+  padding-inline-start: 9.375rem;
 }
 
 .info-slides-content{
   display: flex;
   gap: 7rem;
-  padding-block: 7rem;
-  padding-inline-start: 9.375rem;
-  overflow: hidden;
+  /* overflow: hidden; */
+  /* border: 2px solid red; */
+  align-items: center;
+  /* max-inline-size: 560px; */
+  /* justify-content: flex-start; */
 }
 
 .content-info{
-  flex-shrink: 0;
+  /* flex: 1; */
+  /* border: 1px solid green; */
+  /* flex-shrink: 0; */
   /* max-inline-size: 32.5rem; */
-  max-inline-size: 560px;
+  /* min-inline-size: 560px; */
   inline-size: 100%;
-  align-self: center;
+  /* align-self: center; */
 }
 
 .content-info span{
@@ -35,15 +41,37 @@
 
 .content-slides{
   position: relative;
+  /* overflow: hidden; */
+  /* width: 100px; */
 }
 
 @media screen and (max-width: 768px){
+.info-slides {
+  /* border: 1px solid red; */
+  padding-block-start: 2rem;
+  padding-inline-start: unset;
+}
+
+
   .info-slides-content {
     flex-direction: column;
     /* gap: 7rem; */
     /* padding-block: 7rem; */
     padding-inline: 1.5rem;
     /* overflow: hidden; */
+    gap: 2rem
   }
 
+  .content-info span {
+    margin-block-end: 1.5rem;
+  }
+
+  .content-info p:nth-of-type(2) {
+    margin-block-start: 1.5rem;
+    margin-block-end: 2.5rem;
+  }
+
+  #condos .content-slides, #discover .content-slides{
+    display: none;
+  }
 }

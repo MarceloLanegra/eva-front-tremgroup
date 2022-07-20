@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-block: 2rem;
 }
 
 .testimonials-container{
@@ -56,6 +57,11 @@
 @media screen and (max-width: 768px){
     .testimonials-container {
         flex-direction: column;
-        /* gap: 13.375rem; */
+        gap: 2rem;
+    }
+
+    .testimonials-container .slides1x1-content {
+        font: var(--span2);
+        font-style: italic;
     }
 }

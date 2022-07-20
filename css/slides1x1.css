@@ -1,5 +1,6 @@
 .slides1x1-container {
   /* position: relative; */
+  /* border: 1px solid red; */
   display: flex;
   gap: 2.25rem;
   overflow-x: auto;
@@ -22,17 +23,29 @@
   font: var(--span);
 }
 
+/* .slides-content-img {
+  max-inline-size: 52.875rem;
+  inline-size: 100%;
+  block-size: auto;
+}
+
+.slides-content img {
+  inline-size: 100%;
+  block-size: 100%;
+  vertical-align: middle;
+} */
+
 .slides1x1-content {
   position: relative;
+  max-inline-size: 52.875rem;
+  inline-size: 100%;
+  block-size: auto;
 }
 
 .slides1x1-content img {
-  display: block;
-  inline-size: 478px;
-  block-size: 500px;
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility: hidden;
+  inline-size: 100%;
+  block-size: 100%;
+  vertical-align: middle;
 }
 
 .slides1x1-info {
