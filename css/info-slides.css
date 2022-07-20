@@ -15,6 +15,7 @@
   /* max-inline-size: 32.5rem; */
   max-inline-size: 560px;
   inline-size: 100%;
+  align-self: center;
 }
 
 .content-info span{

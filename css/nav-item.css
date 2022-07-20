@@ -1,0 +1,22 @@
+.nav-item{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.nav-item span{
+    text-transform: uppercase;
+    font: var(--span);
+}
+
+.nav-item a{
+    text-transform: capitalize;
+    font: var(--span2);
+    text-decoration: none;
+    color: var(--black);
+}
+
+.nav-item span, .nav-item a{
+    font-size: .875rem;
+}

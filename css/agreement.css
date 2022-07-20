@@ -1,0 +1,50 @@
+.agreement-container {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.agreement-container p{
+    /* border: 1px solid red; */
+    margin: 0;
+    font: var(--span2);
+    font-size: .875rem;
+}
+
+.agreement-header {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.agreement-img {
+  /* border: 1px solid red; */
+}
+
+.social ul, .legal ul {
+  display: flex;
+  list-style: none;
+  gap: 2.5rem;
+  padding: 0;
+  margin: 0;
+  font: var(--span2);
+  font-size: 0.875rem;
+}
+
+.social a, .legal a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.social a:hover, .legal a:hover {
+  color: var(--gray);
+}
+
+.social a.is-active, .legal a.is-active {
+  color: var(--gray);
+}
+
+.legal{
+    gap:1.5rem
+}

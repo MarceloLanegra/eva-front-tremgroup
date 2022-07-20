@@ -1,46 +1,93 @@
 import showSlides from './show-slides.js'
 import player from './player.js'
-// import showSlides1x1 from './show-slides-1x1.js'
+import showSlides1x1Life from './show-slides-1x1-life.js'
+import showSlides1x1Test from './show-slides-1x1-test.js'
 
-showSlides();
+
+
+
+
+showSlides();                                                                                          
 player()
-// showSlides1x1()
+showSlides1x1Life()
+showSlides1x1Test()
 
-let prevAnchor = document.querySelector('.slides1x1-container').querySelector('.prev1x1');
-let nextAnchor = document.querySelector('.slides1x1-container').querySelector('.next1x1');
-let product = document.getElementsByClassName('slides1x1')
-let product_page = Math.ceil(product.length / 4);
-let l = 0;
-let widthSlides1x1 = document.querySelector('.slides1x1').offsetWidth;
-let gapWidth = 36
-let moveDir = widthSlides1x1 + gapWidth
-let maxWidthSlides1x1 = document.querySelector('.slides1x1-container').offsetWidth;
 
-// mobile_view
-let mob_view = window.matchMedia("(max-width: 768px)");
-if (mob_view.matches) {
-  moveDir = 50.36;
-  maxWidthSlides1x1 = 504;
-}
+let prevAnchorDisc = document.querySelector('#discover').querySelector('.slides1x1-container').querySelector('.prev1x1');
+let nextAnchorDisc = document.querySelector('#discover').querySelector('.slides1x1-container').querySelector('.next1x1');
 
-let right_mover = () => {
-  l = l + moveDir;
-  if (product == 1) { l = 0; }
-  for (const i of product) {
-    if (l > maxWidthSlides1x1) { l = l - moveDir; }
-    i.style.left = '-' + l + 'px';
+  let slidesDisc = document.querySelector(`#discover`).getElementsByClassName('slides1x1')
+  let slidesDisc_page = Math.ceil(slidesDisc.length / 4);
+  let l = 0;
+  let widthSlidesDisc1x1 = document.querySelector(`#discover`).querySelector('.slides1x1').offsetWidth;
+  let gapWidth = 36
+  let moveDirDisc = widthSlidesDisc1x1 + gapWidth
+  let maxWidthSlidesDisc1x1 = document.querySelector(`#discover`).querySelector('.slides1x1-container').offsetWidth;
+  
+  // mobile_view
+  let mob_view = window.matchMedia("(max-width: 768px)");
+  if (mob_view.matches) {
+    moveDirDisc = 50.36;
+    maxWidthSlidesDisc1x1 = 504;
   }
-
-}
-let left_mover = () => {
-  l = l - moveDir;
-  if (l <= 0) { l = 0; }
-  for (const i of product) {
-    if (product_page > 1) {
+  
+  let right_moverDisc = () => {
+    l = l + moveDirDisc;
+    if (slidesDisc == 1) { l = 0; }
+    for (const i of slidesDisc) {
+      if (l > maxWidthSlidesDisc1x1) { l = l - moveDirDisc; }
       i.style.left = '-' + l + 'px';
     }
   }
-}
 
-nextAnchor.addEventListener('click', () => { right_mover(); })
-prevAnchor.addEventListener('click', () => { left_mover(); })
+  let left_moverDisc = () => {
+    l = l - moveDirDisc;
+    if (l <= 0) { l = 0; }
+    for (const i of slidesDisc) {
+      if (slidesDisc_page > 1) {
+        i.style.left = '-' + l + 'px';
+      }
+    }
+  }
+
+nextAnchorDisc.addEventListener('click', () => { right_moverDisc(); })
+prevAnchorDisc.addEventListener('click', () => { left_moverDisc(); })
+
+let prevAnchorCon = document.querySelector('#condos').querySelector('.slides1x1-container').querySelector('.prev1x1');
+let nextAnchorCon = document.querySelector('#condos').querySelector('.slides1x1-container').querySelector('.next1x1');
+
+let slidesCondos = document.querySelector(`#condos`).getElementsByClassName('slides1x1')
+  let slidesCondos_page = Math.ceil(slidesCondos.length / 4);
+
+  let widthSlidesCondos1x1 = document.querySelector(`#condos`).querySelector('.slides1x1').offsetWidth;
+
+  let moveDirCondos = widthSlidesCondos1x1 + gapWidth
+  let maxWidthSlidesCondos1x1 = document.querySelector(`#condos`).querySelector('.slides1x1-container').offsetWidth;
+  
+
+  if (mob_view.matches) {
+    moveDirCondos = 50.36;
+    maxWidthSlidesCondos1x1 = 504;
+  }
+  
+  let right_moverCondos = () => {
+    l = l + moveDirCondos;
+    if (slidesCondos == 1) { l = 0; }
+    for (const i of slidesCondos) {
+      if (l > maxWidthSlidesCondos1x1) { l = l - moveDirCondos; }
+      i.style.left = '-' + l + 'px';
+    }
+  }
+
+  let left_moverCondos = () => {
+    l = l - moveDirCondos;
+    if (l <= 0) { l = 0; }
+    for (const i of slidesCondos) {
+      if (slidesCondos_page > 1) {
+        i.style.left = '-' + l + 'px';
+      }
+    }
+  }
+
+nextAnchorCon.addEventListener('click', () => { right_moverCondos(); })
+prevAnchorCon.addEventListener('click', () => { left_moverCondos(); })

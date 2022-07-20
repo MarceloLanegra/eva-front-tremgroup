@@ -17,13 +17,22 @@
 
 .slides-content {
   position: relative;
+   max-inline-size: 52.875rem;
+   max-block-size: 34.375rem;
+}
+
+.slides-content-img{
+  max-inline-size: 52.875rem;
+  inline-size: 100%;
+  block-size: auto;
 }
 
 .slides-content img{
-    max-inline-size: 52.875rem;
-    max-block-size: 34.375rem;
+    /* max-inline-size: 52.875rem; */
+    /* max-block-size: 34.375rem; */
     inline-size: 100%;
     block-size: 100%;
+    /* width: auto; */
     vertical-align: middle;
 }
 
