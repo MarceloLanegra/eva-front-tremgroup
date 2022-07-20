@@ -36,3 +36,14 @@
 .content-slides{
   position: relative;
 }
+
+@media screen and (max-width: 768px){
+  .info-slides-content {
+    flex-direction: column;
+    /* gap: 7rem; */
+    /* padding-block: 7rem; */
+    padding-inline: 1.5rem;
+    /* overflow: hidden; */
+  }
+
+}

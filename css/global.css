@@ -11,6 +11,9 @@
   --headline1: 400 4rem 'Marcellus';
   --headline2: italic 1.25rem 'Ibarra Real Nova';
   --headline3: 400 1.25rem 'Ibarra Real Nova';
+  --headline1mob: 400 2.5rem 'Marcellus';
+  --headline2mob: italic 1rem 'Ibarra Real Nova';
+  --headline3mob: 400 1rem 'Ibarra Real Nova';
   --sectionTitle: italic 2.5rem 'Marcellus';
   --span: 500 1rem Poppins;
   --span2: 400 1rem Poppins;

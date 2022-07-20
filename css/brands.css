@@ -2,6 +2,7 @@
     /* border: 1px solid red; */
     padding-inline: 3.75rem;
     padding-block: 4.375rem;
+    align-items: center;
 }
 
 .brands h3{
@@ -13,6 +14,25 @@
 .brands-logos{
     margin-block-start: 1.25rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    gap: 1rem;
     align-items: flex-end;
+}
+
+.brands-logos img{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .brands-logos{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768) {
+    .brands-logos {
+        /* grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,1fr); */
+    }
 }

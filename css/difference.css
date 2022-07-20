@@ -3,23 +3,30 @@
   background-image: url('../images/ocean2.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .difference-content{
+  border: 1px solid red;
   display: flex;
   gap: 4rem;
   padding-block: 7.25rem;
   padding-inline: 3.3125rem;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .difference-contentPlayer{
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
+  /* max-inline-size: 2000px; */
+  /* inline-size: 100%; */
 }
 
 .difference-contentInfo{
   padding-inline-end: 5rem;
   /* text-align: justify; */
-  align-self: center;
+  max-inline-size: 35.25rem;
+  /* align-self: center; */
   color: var(--white);
 }
 
@@ -50,4 +57,10 @@
 .difference p:nth-of-type(2) {
   margin-block-start: 3rem;
   margin-block-end: 3.625rem;
+}
+
+@media screen and (max-width:768px){
+  .difference{
+    display: none;
+  }
 }

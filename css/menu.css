@@ -14,6 +14,7 @@
 
 .menu a {
   text-decoration: none;
+
   color: var(--black);
 }
 
@@ -23,4 +24,60 @@
 
 .menu a.is-active {
   color: var(--gray);
+}
+
+.nav-link{
+  transition: 0.7s ease;
+}
+
+.hamburguer {
+  display: none;
+}
+
+.bar{
+  background-color: black;
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1024px){
+  .hamburguer{
+    display: block;
+  }
+
+  .hamburguer.active .bar:nth-child(2){
+    opacity: 0;
+  }
+  .hamburguer.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburguer.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: green;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-menu:active{
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #contact-us {
+    display: none;
+  }
 }

@@ -7,7 +7,7 @@ import showSlides1x1Test from './show-slides-1x1-test.js'
 
 
 
-showSlides();                                                                                          
+showSlides();
 player()
 showSlides1x1Life()
 showSlides1x1Test()
@@ -23,14 +23,14 @@ let nextAnchorDisc = document.querySelector('#discover').querySelector('.slides1
   let gapWidth = 36
   let moveDirDisc = widthSlidesDisc1x1 + gapWidth
   let maxWidthSlidesDisc1x1 = document.querySelector(`#discover`).querySelector('.slides1x1-container').offsetWidth;
-  
+
   // mobile_view
   let mob_view = window.matchMedia("(max-width: 768px)");
   if (mob_view.matches) {
     moveDirDisc = 50.36;
     maxWidthSlidesDisc1x1 = 504;
   }
-  
+
   let right_moverDisc = () => {
     l = l + moveDirDisc;
     if (slidesDisc == 1) { l = 0; }
@@ -63,13 +63,13 @@ let slidesCondos = document.querySelector(`#condos`).getElementsByClassName('sli
 
   let moveDirCondos = widthSlidesCondos1x1 + gapWidth
   let maxWidthSlidesCondos1x1 = document.querySelector(`#condos`).querySelector('.slides1x1-container').offsetWidth;
-  
+
 
   if (mob_view.matches) {
     moveDirCondos = 50.36;
     maxWidthSlidesCondos1x1 = 504;
   }
-  
+
   let right_moverCondos = () => {
     l = l + moveDirCondos;
     if (slidesCondos == 1) { l = 0; }
@@ -91,3 +91,15 @@ let slidesCondos = document.querySelector(`#condos`).getElementsByClassName('sli
 
 nextAnchorCon.addEventListener('click', () => { right_moverCondos(); })
 prevAnchorCon.addEventListener('click', () => { left_moverCondos(); })
+
+const hamburguer = document.querySelector(".hamburguer")
+const navMenu = document.querySelector(".nav-menu")
+
+hamburguer.addEventListener('click', ()=>{
+  hamburguer.classList.toggle("active")
+  navMenu.classList.toggle("active")
+})
+
+document.querySelectorAll(".nav-link").forEach(n=>n.addEventListener('click',()=>{
+  hamburguer.classList.remove("active");
+}))

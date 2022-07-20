@@ -24,6 +24,7 @@
 
 .social ul, .legal ul {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   gap: 2.5rem;
   padding: 0;
@@ -47,4 +48,12 @@
 
 .legal{
     gap:1.5rem
+}
+
+@media screen and (max-width:768px){
+  .agreement-header{
+    /* border: 1px solid red; */
+    flex-direction: column;
+    gap: 1rem;
+  }
 }

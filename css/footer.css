@@ -1,14 +1,14 @@
 @import 'nav-item.css';
 @import 'agreement.css';
 
-.footer{
+.footer {
     /* border: 1px solid red; */
     padding-block-start: 56px;
     padding-block-end: 90px;
     padding-inline: 3.75rem;
 }
 
-.footer-container{
+.footer-container {
     /* border: 1px solid red; */
     position: relative;
     display: flex;
@@ -16,15 +16,15 @@
     gap: 2.375rem
 }
 
-.footer-image{
+.footer-image {
     /* border: 1px solid red; */
 }
 
-.footer img{
+.footer img {
     vertical-align: middle;
 }
 
-.pointers{
+.pointers {
     inline-size: 3.875rem;
     block-size: 6.375rem;
     position: absolute;
@@ -32,20 +32,47 @@
     inset-inline-end: 0;
 }
 
-.footer-nav{
+.footer-nav {
     display: grid;
-    grid-template-columns: repeat(6,1fr)
+    grid-template-columns: repeat(6, 1fr)
 }
 
-.footer-agreement{
+.footer-agreement {
     /* border: 1px solid red; */
 }
 
-.realtor-logo{
-    inline-size:100px;
+.realtor-logo {
+    inline-size: 100px;
     /* block-size: 3.5625rem; */
     height: auto;
     position: absolute;
     inset-block-end: -10%;
     inset-inline-end: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-nav {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        /* grid-template-rows: repeat(3,1fr); */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding-inline: 1.5rem;
+        padding-block-end: 56px;
+    }
+
+    .footer-nav {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pointers{
+        display: none;
+    }
+
+    .realtor-logo{
+        inset-block-end: -5%;
+    }
 }

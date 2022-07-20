@@ -4,13 +4,23 @@
 .hero{
   background-color: #00000080;
   background-image: url('../images/welcome.jpg');
+  /* block-size: 100%; */
+  width: auto;
   background-blend-mode: multiply;
+  background-position: center;
   background-repeat: no-repeat;
-  block-size: 54.125rem;
   background-size: cover;
+  min-block-size: 54.125rem;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   flex-direction: column;
   justify-content: center;
   gap: 7rem;
+  padding-inline: 1.5rem;
+}
+
+@media screen and (max-width:768px){
+  .hero{
+    gap:4rem
+  }
 }

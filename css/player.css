@@ -2,9 +2,10 @@
 
 .player{
     max-inline-size: 846px;
-    max-block-size: 598px;
-    inline-size: 100%;
-    block-size: 100%;
+    min-inline-size: 534px;
+    /* max-block-size: 598px; */
+    /* inline-size: 100%; */
+    block-size: auto;
     position: relative;
   }
 
