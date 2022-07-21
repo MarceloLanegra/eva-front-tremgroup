@@ -7,7 +7,7 @@
 }
 
 .difference-content{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   gap: 4rem;
   padding-block: 7.25rem;
@@ -57,6 +57,12 @@
 .difference p:nth-of-type(2) {
   margin-block-start: 3rem;
   margin-block-end: 3.625rem;
+}
+
+@media screen and (max-width:1024px){
+  .difference-content{
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width:768px){

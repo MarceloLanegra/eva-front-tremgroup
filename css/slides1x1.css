@@ -37,14 +37,14 @@
 
 .slides1x1-content {
   position: relative;
-  max-inline-size: 52.875rem;
+  /* max-inline-size: 52.875rem;
   inline-size: 100%;
-  block-size: auto;
+  block-size: auto; */
 }
 
 .slides1x1-content img {
-  inline-size: 100%;
-  block-size: 100%;
+  max-inline-size: 29.875rem;
+  max-block-size: 31.25rem;
   vertical-align: middle;
 }
 
