@@ -92,14 +92,14 @@ let slidesCondos = document.querySelector(`#condos`).getElementsByClassName('sli
 nextAnchorCon.addEventListener('click', () => { right_moverCondos(); })
 prevAnchorCon.addEventListener('click', () => { left_moverCondos(); })
 
-const hamburguer = document.querySelector(".hamburguer")
-const navMenu = document.querySelector(".nav-menu")
+const hamburguer = document.querySelector('.hamburguer')
+const navMenu = document.querySelector('.nav-menu')
 
 hamburguer.addEventListener('click', ()=>{
-  hamburguer.classList.toggle("active")
-  navMenu.classList.toggle("active")
+  hamburguer.classList.toggle('active')
+  navMenu.classList.toggle('active')
 })
 
-document.querySelectorAll(".nav-link").forEach(n=>n.addEventListener('click',()=>{
-  hamburguer.classList.remove("active");
+document.querySelectorAll('.nav-link').forEach(n=>n.addEventListener('click',()=>{
+  hamburguer.classList.remove('active');
 }))
